@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#2210E8"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextEditTask"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Edit task"
+        android:textColor="#F6F2FF"
+        android:textColorHint="#F6F2FF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonUpdateTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#000857"
+        android:lineSpacingExtra="24sp"
+        android:text="Conform"
+        android:textColor="#F6F2FF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextEditTask" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
